@@ -1,0 +1,79 @@
+.jumbotron {
+  background: white;
+}
+
+.mission-container {
+  position: relative;
+  background: #1abc9c;
+  width: 300px;
+  min-height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 1px 1px 20px -10px black;
+}
+
+.btn-primary {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: black;
+  border-radius: 0px;
+  padding: 8px 16px;
+  border: 0px solid white;
+}
+.btn-primary:hover {
+  background: orange;
+}
+
+.is-visible {
+  opacity: 0;
+  display: none;
+}
+
+.btn-success {
+  border-radius: 0px;
+  padding: 8px 16px;
+  border: 0px solid white;
+  background: #1abc9c;
+}
+
+.btn-success:hover {
+  box-shadow: 0px 1px 40px -20px black;
+  background: black;
+  transform: translateX(5px);
+}
+
+.btn-primary:focus {
+  border: 1px solid transparent;
+}
+
+.jumbotron > img {
+  width: 300px;
+}
+
+.sub-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.lead {
+  color: white;
+}
+
+.button-clicked {
+  background: orange !important;
+}
+
+.button-clicked:after {
+  content: " Click to hide";
+  display: block;
+  font-size: 0.8em;
+}
